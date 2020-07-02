@@ -1,0 +1,103 @@
+
+
+.nav {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1vw;
+  background-color: #fff;
+  border-radius: .3vw;
+  position: relative;
+  display: block;
+  position:relative;
+}
+
+
+
+
+.nav__wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(24, 8, 8, 0);
+  border-radius: .3vw;
+  z-index: 2;
+}
+
+.nav__wrap::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 95%;
+  height: 1.579vw;
+  border-radius: 0.263vw;
+  transform: translateX(-50%);
+  background-color: #ffffff86;
+  z-index: -1;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__link {
+  text-align: center;
+}
+
+.one {
+  width: 5.789vw;
+}
+
+.two {
+  width: 15.421vw;
+}
+
+.three {
+  width: 13.895vw;
+}
+.four {
+  width: 11.368vw;
+}
+.five {
+  width: 6.316vw;
+}
+.six {
+  width: 12.526vw;
+}
+.seven {
+  width: 4.737vw;
+}
+.eight {
+  width: 6.526vw;
+}
+.nine {
+  width: 5.789vw;
+}
+
+
+.nav li {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.nav a {
+  color: #282828;
+  font-size: 0.789vw;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  text-decoration: none;
+  transition: .3s all;
+}
+
+.nav a:hover {
+  text-shadow: 0 0 0.034vw #333, 0 0 0.034vw #333;
+  font-weight: bold;
+  position: relative;
+}
+

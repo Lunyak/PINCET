@@ -1,0 +1,135 @@
+
+
+.header__content {
+  margin-top: 6.105vw;
+  padding-left: 6.053vw;
+}
+
+.header__title {
+  font-size: 0.421vw;
+  width: 36.579vw;
+  h2 {
+    font-size: 2.5vw;
+    width: 36.579vw;
+    line-height: 54px;
+  }
+  span {
+    font-weight: 300;
+  }
+}
+
+.header__checklist {
+  width: 36vw;
+  padding: 3vw 0;
+  li {
+    margin-bottom: 0.947vw;
+    font-size: 0.947vw;
+    font-weight: 400;
+    list-style: none;
+    padding-left: 2vw;
+    position: relative;
+    font-family: 'Museo Sans', sans-serif;
+  }
+}
+
+.header__checklist-check:last-child {
+  margin-bottom: 0;
+}
+
+.header__checklist-check::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 0.895vw;
+  height: 0.895vw;
+  border-radius: 1.263vw;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #ff000086;
+  z-index: 1;
+}
+
+.header__checklist-check::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 0.421vw;
+  height: 0.421vw;
+  border-radius: 1.263vw;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ff000086;
+  box-shadow: 0 0 0.158vw 0 #ff000086;
+  z-index: 2;
+}
+
+
+
+.btn__checklist {
+  width: 19.947vw;
+  height: 4.526vw;
+  // padding: 1.368vw 7.895vw 1.368vw 2.421vw;
+  background-color:#f6a7aa ;
+  background: linear-gradient(to top, #f6a7aa 0%, #fac1c3 100%);
+  text-transform: uppercase;
+  border-radius: 2.632vw;
+  box-shadow: 0 0.211vw 0 0 #d7747a, 0.158vw 0.158vw 0.684vw 0.053vw #d7747a;
+  position: relative;
+  p {
+    width: 10.737vw;
+    font-weight: 700;
+    color: #fff;
+    top: 50%;
+    left: 2.368vw;
+    transform: translateY(-50%);
+    position: absolute;
+    letter-spacing: 0.105vw;
+    z-index: 3;
+  }
+}
+
+.btn__checklist::before {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  border-radius: 2.632vw;
+  z-index: 1;
+  transition: opacity .3s;
+  background: linear-gradient(to top, #f6a7aa 0%, #f79da0 100%);
+  opacity: 0;
+}
+
+.btn__checklist::after {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  height: 3.684vw;
+  width: 13.684vw;
+  transform: translateY(-50%);
+  background: url(../img/Branch.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+
+
+
+.btn__checklist:hover::before {
+  background: linear-gradient(to top, #f6a7aa 0%, #f79da0 100%);
+  opacity: 1;
+}
+
+.btn__checklist:active::before {
+  background: linear-gradient(to top, #f6a7aa 0%, #f56368 100%);
+  opacity: 1;
+}

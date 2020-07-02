@@ -1,0 +1,80 @@
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans Cyrl'), local('MuseoSansCyrl'),
+      url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+      url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+      url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans Cyrl'), local('MuseoSansCyrl'),
+      url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+      url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+      url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans Cyrl'), local('MuseoSansCyrl'),
+      url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+      url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+      url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans Cyrl'), local('MuseoSansCyrl'),
+      url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+      url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+      url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: local('Museo Sans Cyrl'),
+      url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+      url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+      url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Museo Sans', sans-serif;
+}
+
+ul, li, a {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+
+.container {
+  padding: 0 .5vw;
+  width: 82.105vw;
+  margin: 0 auto;
+}

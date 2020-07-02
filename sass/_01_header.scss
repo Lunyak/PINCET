@@ -1,0 +1,255 @@
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/fon_c.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    // @media width-max (1080) {
+    //     height: 1080px;
+    // }
+}
+
+.header::before {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    width: 45.684vw;
+    height: 71vh;
+    background: url(../img/Lady.png) no-repeat;
+    background-size: 46vw;
+    z-index: 1;
+}
+
+.header__top {
+    height: 9.105vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo-wrap {
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 3vw;
+        width: auto;
+        height: 6.737vw;
+    }
+    p {
+        width: 9vw;
+        display: flex;
+        align-items: center;
+        display: inline-block;
+        color: #282828c2;
+        font-weight: 300;
+        font-size: 0.737vw;
+        font-size: .7vw;
+        line-height: 1.5;
+    }
+}
+
+.header__iformation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__information--phone-img {
+    width: 2.105vw;
+    height: 2.105vw;
+    border-radius: 5vw;
+    background-color: #fff;
+    position: relative;
+    margin-right: .8vw;
+}
+
+.header__information--phone-img:before {
+    content: "";
+    position: absolute;
+    width: 0.842vw;
+    height: 0.842vw;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: url(../img/icon/call.png) no-repeat;
+}
+
+.header__information-wrap {
+    a {
+        display: inline-block;
+        margin-top: .2vw;
+        font-size: 1.263vw;
+        text-decoration: none;
+        font-weight: 500;
+        color: #282828d7;
+    }
+}
+
+.callback__now {
+    padding-left: .9vw;
+    font-size: 0.632vw;
+    font-weight: 500;
+    letter-spacing: .03vw;
+    position: relative;
+}
+
+.callback__now:before {
+    content: "";
+    width: 0.263vw;
+    height: 0.263vw;
+    top: 50%;
+    left: 0.211vw;
+    position: absolute;
+    border-radius: 1.579vw;
+    transform: translateY(-50%);
+    background-color: #27b24b;
+
+}
+
+.header__information-phone {
+    display: flex;
+}
+
+.header__map {
+    margin-right: 4vw;
+    display: flex;
+    align-items: center;
+    img {
+        width: 6.5vw;
+        height: auto;
+        margin-right: .4vw;
+    }
+}
+
+.map__text-top {
+    color: #282828;
+    font-weight: 700;
+    font-size: 0.842vw;
+}
+
+.map__text-bottom {
+    font-size: 0.842vw;
+    margin-bottom: .5vw;
+}
+
+.look__for-map {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.632vw;
+    font-weight: 500;
+    color: #ff6078;
+    position: relative;
+}
+
+.look__for-map:before {
+    content: "";
+    position: absolute;
+    bottom: -0.263vw;
+    left: 0vw;
+    width: 6.4vw;
+    height: 0.053vw;
+    border-bottom: 0.053vw dashed #ff6078;
+}
+
+
+.header__timetable {
+    display: flex;
+    align-items: center;
+}
+
+.header__timetable-img {
+    margin-right: .8vw;
+    width: 2.105vw;
+    height: 2.105vw;
+    border-radius: 5vw;
+    background-color: #fff;
+    position: relative;
+}
+
+.header__timetable-text {
+    font-weight: 300;
+    font-size: 0.842vw;
+    span {
+        font-weight: 700;
+        margin-left: 0.316vw;
+    }
+}
+
+.header__timetable-img:before {
+    content: "";
+    position: absolute;
+    width: 0.842vw;
+    height: 0.842vw;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: url(../img/icon/time.png) no-repeat;
+}
+
+
+.btn {
+    padding: 1.316vw 1.316vw 1.316vw 3.053vw;
+    border-radius: 1.579vw;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0.158vw 0 0px rgba(0, 0, 0, 0.082);
+    outline: none;
+    cursor: pointer;
+    transition: .4s all;
+    p {
+        font-size: 0.737vw;
+        font-weight: 500;
+        font-family: 'Museo Sans';
+    }
+}
+
+
+.btn__record {
+    margin-right: 2vw;
+    margin-left: 4vw;
+    background-color: #fff;
+    position: relative;
+}
+
+.btn__record:hover {
+    background-color: #ff6078;
+}
+
+.btn__record:active {
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+.btn__record:before {
+    content: "";
+    width: 1.053vw;
+    height: 1.053vw;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%) translateX(50%);
+    background: url(../img/icon/data.png) no-repeat;
+
+}
+
+
+.heaader__client-card {
+    position: absolute;
+    bottom: 4.737vw;
+    left: 45.211vw;
+    width: 9.211vw;
+    height: 12.474vw;
+
+    img {
+        width: 100%;
+    }
+}
+
+.heaader__client-card:after {
+
+}
